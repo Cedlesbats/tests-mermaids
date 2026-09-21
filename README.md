@@ -36,7 +36,7 @@ flowchart TD
     producteurs -->|vend| Restaurants
     agriculteurs -->|vend| huilerie
     éleveurs -->|vend| abattoir
-    agriculteur --> maraîcher
+    agriculteurs --> maraîcher
     huilerie -->|vend| grossiste
 
     client <-.->|commande| serveur
