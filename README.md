@@ -1,1 +1,8 @@
 # tests-mermaids
+
+
+```
+mermaid
+
+A
+```
