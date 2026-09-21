@@ -23,7 +23,7 @@ flowchart TD
 
     subgraph grossiste["grossiste"]
         boucher["boucher"]
-        marécher["marécher"]
+        maraîcher["maraîcher"]
     end
 
     subgraph Restaurants["Restaurants"]
@@ -36,7 +36,7 @@ flowchart TD
     producteurs -->|vend| Restaurants
     agriculteurs -->|vend| huilerie
     éleveurs -->|vend| abattoir
-
+    agriculteur --> maraîcher
     huilerie -->|vend| grossiste
 
     client <-.->|commande| serveur
